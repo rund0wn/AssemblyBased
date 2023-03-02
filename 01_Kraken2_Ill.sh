@@ -14,4 +14,4 @@ kraken2 --db /ibex/scratch/projects/c2014/rund/metagenomics_prelimdata/pilot/out
 --threads 6 --gzip-compressed --paired \
 --report classification/${1}_kraken.txt \
 --output classification/${1}_kraken.report \
-${1}_R1.fastq.gz ${1}_R2.fastq.gz
+${1}_trimmed_R1.fastq.gz ${1}_trimmed_R2.fastq.gz

@@ -14,6 +14,6 @@ spades.py --meta \
 -2 ${1}_trimmed_R2.fastq.gz \
 --pacbio ${2}.fastq.gz \
 --pacbio ${3}.fastq.gz \
--o ${1}_IllONT_spadesout \
+-o ${1}_IllPB_spadesout \
 --memory 400 \
 --threads 18

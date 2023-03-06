@@ -12,8 +12,8 @@ module load spades
 spades.py --meta \
 -1 ${1}_trimmed_R1.fastq.gz \
 -2 ${1}_trimmed_R2.fastq.gz \
---nanopore SRR8351023_1.fastq.gz \
---nanopore SRR8073713_1.fastq.gz \
+--nanopore ${2}.fastq.gz \
+--nanopore ${3}.fastq.gz \
 -o ${1}_IllONT_spadesout \
 --memory 400 \
 --threads 18
